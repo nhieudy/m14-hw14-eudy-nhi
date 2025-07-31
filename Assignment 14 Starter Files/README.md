@@ -18,6 +18,7 @@ Create a git repository titled `m14-hw14-lastname-firstname` and clone the repo 
 1. Create a single webpage about yourself and your hobbies, interests, and career goals using Bootstrap. Please keep all of the content professional and appropriate for the academic setting. To receive full-credit, you must:
     1. Include a [mobile-responsive navbar component](https://getbootstrap.com/docs/5.1/components/navbar/).
         * Your navbar component's menu must open and close on mobile screens. This functionality comes pre-built into the component example code in the documentation. To preserve this functionality, avoid changing any `data-` or `id` attributes when modifying the component for your site. 
+        Did This!
     1. Use the [Bootstrap responsive grid system](https://getbootstrap.com/docs/5.1/layout/grid/) to create columns as necessary for your page.
         * [Your columns MUST be responsive](https://getbootstrap.com/docs/5.1/layout/grid/#responsive-classes) on mobile devices.
     1. Use [Bootstrap's spacing utilities](https://getbootstrap.com/docs/5.1/utilities/spacing/) for setting margin and padding as necessary.
