@@ -1,0 +1,27 @@
+
+body{
+    background-color: #003049;
+}
+.navbar, .nav-link, .navbar-brand{
+    color: #669bbc;
+    background-color: #0a1128;
+}
+.nav-link:hover, .navbar-brand:hover{
+    color: #8ecae6;
+}
+header{
+color: #669bbc;
+background-color: #003049;
+}
+
+.header-text{
+    color:#669bbc;
+}
+
+.btn{
+    background-color: #669bbc;
+    color: #003049;
+}
+.btn:hover{
+    background-color: #8ecae6;
+}

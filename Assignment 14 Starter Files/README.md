@@ -21,7 +21,7 @@ Create a git repository titled `m14-hw14-lastname-firstname` and clone the repo 
         Did This!
     1. Use the [Bootstrap responsive grid system](https://getbootstrap.com/docs/5.1/layout/grid/) to create columns as necessary for your page.
         * [Your columns MUST be responsive](https://getbootstrap.com/docs/5.1/layout/grid/#responsive-classes) on mobile devices.
-    1. Use [Bootstrap's spacing utilities](https://getbootstrap.com/docs/5.1/utilities/spacing/) for setting margin and padding as necessary.
+    1. Use [Bootstrap's spacing utilities](https://getbootstrap.com/docs/5.1/utilities/spacing/) for setting margin and padding as necessary. Did This!
     1. Use two other Bootstrap components such as [cards](https://getbootstrap.com/docs/5.1/components/card/) or [buttons](https://getbootstrap.com/docs/5.1/components/buttons/)
         * You MUST notate which components you used in the README for this assignment.
 
