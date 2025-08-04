@@ -13,11 +13,11 @@
     <link rel="stylesheet" href="styles.css" />
     <title>Nhi Eudy</title>
   </head>
-  <body>
+  <body class="dark-background">
     <!--Nav Bar-->
-    <nav class="navbar navbar-expand-lg pr-5">
+    <nav class="navbar darker-background navbar-expand-lg pr-5">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#"> MMC5277: Assignment 14</a>
+        <a class="navbar-brand light-font" href="#"> MMC5277: Assignment 14</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -36,13 +36,16 @@
         >
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html"
+              <a
+                class="nav-link light-font active"
+                aria-current="page"
+                href="index.html"
                 >Home</a
               >
             </li>
-            <li class="nav-item dropdown">
+            <li class="nav-item dropdown light-font text-decoration-none">
               <a
-                class="nav-link dropdown-toggle"
+                class="nav-link light-font dropdown-toggle"
                 href="#"
                 id="navbarDropdownMenuLink"
                 role="button"
@@ -52,73 +55,156 @@
                 Contact Me
               </a>
               <ul
-                class="dropdown-menu"
+                class="dropdown-menu darker-background"
                 aria-labelledby="navbarDropdownMenuLink"
               >
                 <li>
-                  <a class="dropdown-item" href="https://github.com/nhieudy"
+                  <a
+                    class="dropdown-item light-font"
+                    href="https://github.com/nhieudy"
                     >GitHub</a
                   >
                 </li>
                 <li>
                   <a
-                    class="dropdown-item"
+                    class="dropdown-item light-font"
                     href="https://www.linkedin.com/in/nhi-eudy-25aa5028b/"
                     >LinkedIn</a
                   >
                 </li>
                 <li>
-                  <a class="dropdown-item" href="mailto:nhieudy@gmail.com"
+                  <a
+                    class="dropdown-item light-font"
+                    href="mailto:nhieudy@gmail.com"
                     >E-mail</a
                   >
                 </li>
               </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
+              <a class="nav-link light-font" href="#">About</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
-    <!--Carousel-->
     <!--Header-->
     <header
       class="d-flex align-items-center justify-content-start text-black p-5"
     >
       <div class="row align-items-center">
         <div class="col-md-12">
-          <h1 class="header-text header-title">
+          <h1 class="header-text light-font header-title">
             Hi, My Name is Nhi Eudy <br />
             I'm a Web Design Student
           </h1>
+        </div>
+        <div class="row align-items-center">
+          <div class="col-md-9">
+            <p class="header-text light-font fs-5 fw-light">
+              I recieved my bachelor degree in Electrical Engineering at the
+              University of Oklahoma, and now work at the FAA as an electrical
+              engineer. I decided I wanted to learn more about web development,
+              and I chose to start a graduate program at the University of
+              Florida.
+            </p>
+          </div>
           <div class="row align-items-center">
-            <div class="col-md-9">
-              <p class="header-text fs-5 fw-light">
-                I recieved my bachelor degree in Electrical Engineering at the
-                University of Oklahoma, and now work at the FAA as an electrical
-                engineer. I decided I wanted to learn more about web
-                development, and I chose to start a graduate program at the
-                University of Florida.
-              </p>
-            </div>
-            <div class="row align-items-center">
-              <div class="col-12">
-                <div class="d-grid gap-2 d-md-block">
-                  <a class = "text-decoration-none"href = "https://github.com/nhieudy">
-                  <button class="btn" type="button">GitHub</button>
-                  </a>
-                <a class = "text-decoration-none"href = "https://www.linkedin.com/in/nhi-eudy-25aa5028b/">
-                  <button class="btn" type="button">LinkedIn</button>
+            <div class="col-12">
+              <div class="d-grid gap-2 d-md-block justify-content-center">
+                <a
+                  class="text-decoration-none"
+                  href="https://github.com/nhieudy"
+                >
+                  <button class="btn dark-font light-background" type="button">
+                    GitHub
+                  </button>
                 </a>
-                </div>
+                <a
+                  class="text-decoration-none"
+                  href="https://www.linkedin.com/in/nhi-eudy-25aa5028b/"
+                >
+                  <button class="btn dark-font light-background" type="button">
+                    LinkedIn
+                  </button>
+                </a>
               </div>
             </div>
           </div>
         </div>
       </div>
     </header>
-    <!--Grid-->
+    <!--Cards-->
+    <div class="row row-cols-1 row-cols-md-3 g-4 m-5">
+      <div class="col">
+        <div class="card darker-background h-100">
+          <img src="Assets/bouldering.jpg" class="card-img-top" alt="Hobbies" />
+          <div class="card-body">
+            <h5 class="card-title lighter-font">Hobbies</h5>
+            <p class="card-text light-font">
+              My current hobbies are rock climbing, swimming, painting,
+              traveling, and reading. I recently gotten into rock climbing this
+              year, and I have enjoyed it a ton! It's a good balance of physical
+              strength, technique, and problem-solving. It's a nice challenge,
+              and the community is great.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card darker-background h-100">
+          <img src="Assets/interest.jpg" class="card-img-top" alt="Interests" />
+          <div class="card-body darker-background">
+            <h5 class="card-title lighter-font">Interests</h5>
+            <p class="card-text light-font">
+              Some of my interests include learning Vietnamese, how to sew, and
+              obviously learning concepts of design and web-design principles.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card darker-background h-100">
+          <img src="Assets/career.jpg" class="card-img-top" alt="Career" />
+          <div class="card-body">
+            <h5 class="card-title lighter-font">Career</h5>
+            <p class="card-text light-font">
+              I am currently an electrical engineer at the Federal Aviation
+              Administraion (FAA), and I have worked there for almost 5 years
+              now. While I love my job, I do want to pivot to a career in
+              web-design or graphic design. This graduate program will help a
+              lot in learning the concepts, tools, and principles of web design,
+              and I look forward to it!
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Skill Set-->
+    <div class="container p-5">
+      <div
+        class="row light-font align-items-center justify-content-cente text-center m-3"
+      >
+        <div col-md-12 m-5>
+          <h2 class = "fs-1">My Skills</h2>
+        </div>
+      </div>
+      <div class="row light-font justify-content-center text-center">
+        <div class="col-md-3"><h3>Adobe Photoshop</h3></div>
+        <div class="col-md-3"><h3>Adobe InDesign</h3></div>
+        <div class="col-md-3"><h3>Adobe Illustrator</h3></div>
+      </div>
+      <div class="row light-font justify-content-center text-center mt-3">
+        <div class="col-md-3"><h3>HTML</h3></div>
+        <div class="col-md-3"><h3>CSS</h3></div>
+        <div class="col-md-3"><h3>JavaScript</h3></div>
+      </div>
+      <div class="row light-font justify-content-center text-center mt-3 mb-5">
+        <div class="col-md-3"><h3>BootStrap</h3></div>
+        <div class="col-md-3"><h3>UI/UX Design<h3></div>
+        <div class="col-md-3"><h3>Communications</h3></div>
+      </div>
+    </div>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
